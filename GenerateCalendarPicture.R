@@ -5,7 +5,7 @@ if(!("lubridate"%in%installed.packages())){install.packages("lubridate");library
 
 Start_Date <- "2018/01/01"
 End_Date <- "2018/05/31"
-setwd("~/../Desktop/Chett Blackmail Pictures/Calendar Folder/")
+setwd("~")
 Eqn <- function(L = 1, xN = 0, k=1, x){
   return(L/(1+exp(1)^(-k*(x-xN))))
 }
